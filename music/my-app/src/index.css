@@ -1,0 +1,115 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: .14rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "微软雅黑";
+}
+
+body {
+    min-width: 320px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 625%;
+}
+
+img,
+div,
+body,
+html,
+ul,
+li,
+a {
+    -webkit-touch-callout: none;
+}
+
+input,
+button {
+    outline: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #999;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.wrap .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: url('./a.jpg') no-repeat 40%;
+    -webkit-filter: blur(6px);
+    background-size: cover;
+}
+
+.wrap .main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, .3);
+}
+
+.wrap .main .imgBox {
+    width: 100%;
+    height: 60%;
+    background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap .main .imgBox img {
+    display: block;
+    width: 160px;
+    height: 160px;
+}
+
+.wrap .noneBox {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 12;
+    display: none;
+}
