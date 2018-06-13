@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.all {
+    margin: 40% auto;
+}
+
+.all ul {
+    text-align: center;
+}
+
+.all ul li {
+    list-style: none;
+    margin-top: 15px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}

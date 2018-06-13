@@ -1,0 +1,50 @@
+.alert {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.333);
+}
+
+.alert>div {
+    position: relative;
+    width: 90%;
+    height: 25%;
+    margin-left: 5%;
+    margin-top: 40%;
+    background: #fff;
+    text-align: center;
+}
+
+.alert div h4 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.alert>div>button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid skyblue;
+}
+
+.btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid skyblue;
+    padding: 10px 0;
+}
+
+.btn button {
+    flex: 1;
+    background: none;
+    border: none;
+}
